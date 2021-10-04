@@ -2,7 +2,7 @@ type: marketplace
 title: '{ this is Kotlin }'
 language: English
 summary: |-
-  <p>Support exercises for <strong>{ this is Kotlin }<strong> course.</p>
+  <p>Support exercises for <strong>{ this is Kotlin }</strong> course.</p>
   <p><strong>{ this is Kotlin }</strong> is an introductory Kotlin course, so no previous Kotlin experience is required.
   However, it's not an in introductory course in programming, so some programming experience is required.
   The target audience is usually Java programmers that want to switch to Kotlin, but explicit Java knowledge is not a prerequisite.
