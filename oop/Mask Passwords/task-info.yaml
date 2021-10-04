@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/MaskDelegate.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 341
+    placeholder_text: // your code goes here
+- name: test/MaskDelegateTest.kt
+  visible: true

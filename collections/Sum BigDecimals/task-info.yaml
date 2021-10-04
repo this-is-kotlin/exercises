@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/SumBigDecimals.kt
+  visible: true
+  placeholders:
+  - offset: 29
+    length: 89
+    placeholder_text: TODO()
+- name: test/SumBigDecimalsTest.kt
+  visible: false

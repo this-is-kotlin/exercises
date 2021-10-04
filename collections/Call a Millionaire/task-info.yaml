@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/CallMillionaire.kt
+  visible: true
+  placeholders:
+  - offset: 239
+    length: 1235
+    placeholder_text: TODO()
+- name: test/CallMillionaireTest.kt
+  visible: false

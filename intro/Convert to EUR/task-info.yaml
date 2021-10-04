@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/ConvertToEur.kt
+  visible: true
+  placeholders:
+  - offset: 59
+    length: 188
+    placeholder_text: = TODO()
+- name: test/ConvertToEurTest.kt
+  visible: true

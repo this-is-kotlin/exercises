@@ -1,0 +1,13 @@
+type: edu
+files:
+- name: src/SimulatedFailure.kt
+  visible: true
+  placeholders:
+  - offset: 27
+    length: 27
+    placeholder_text: ""
+  - offset: 83
+    length: 137
+    placeholder_text: = TODO()
+- name: test/SimulatedFailureTest.kt
+  visible: false

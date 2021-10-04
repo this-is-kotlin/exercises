@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/ApplyInterest.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 1895
+    placeholder_text: // your code goes here
+- name: test/ApplyInterestTest.kt
+  visible: false

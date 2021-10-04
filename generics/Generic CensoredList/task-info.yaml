@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/Task.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 609
+    placeholder_text: ""
+- name: test/Tests.kt
+  visible: false

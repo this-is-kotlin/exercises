@@ -1,0 +1,13 @@
+type: edu
+files:
+- name: src/PlusOperator.kt
+  visible: true
+  placeholders:
+  - offset: 348
+    length: 177
+    placeholder_text: TODO()
+  - offset: 612
+    length: 72
+    placeholder_text: TODO()
+- name: test/PlusOperatorTest.kt
+  visible: true

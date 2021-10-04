@@ -1,0 +1,12 @@
+type: edu
+files:
+- name: src/Retry.kt
+  visible: true
+  placeholders:
+  - offset: 22
+    length: 168
+    placeholder_text: TODO()
+- name: test/RetryTest.kt
+  visible: false
+- name: src/Util.kt
+  visible: true

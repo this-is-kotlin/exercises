@@ -1,0 +1,15 @@
+type: edu
+files:
+- name: img.png
+  visible: false
+- name: src/DynamicConversion.kt
+  visible: true
+  placeholders:
+  - offset: 24
+    length: 331
+    placeholder_text: TODO()
+  - offset: 439
+    length: 175
+    placeholder_text: TODO()
+- name: test/DynamicConversionTest.kt
+  visible: true

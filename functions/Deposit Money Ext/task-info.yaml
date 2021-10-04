@@ -1,0 +1,12 @@
+type: edu
+files:
+- name: src/Account.kt
+  visible: true
+- name: src/DepositMoneyExt.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 158
+    placeholder_text: TODO()
+- name: test/DepositMoneyExtTest.kt
+  visible: true

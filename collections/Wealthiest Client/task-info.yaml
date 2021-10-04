@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/WealthiestClient.kt
+  visible: true
+  placeholders:
+  - offset: 271
+    length: 1137
+    placeholder_text: TODO()
+- name: test/WealthiestClientTest.kt
+  visible: false

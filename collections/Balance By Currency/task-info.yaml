@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/BalanceByCurrency.kt
+  visible: true
+  placeholders:
+  - offset: 153
+    length: 264
+    placeholder_text: TODO()
+- name: test/BalanceByCurrencyTest.kt
+  visible: false

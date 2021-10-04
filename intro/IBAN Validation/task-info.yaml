@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/IbanValidation.kt
+  visible: true
+  placeholders:
+  - offset: 195
+    length: 80
+    placeholder_text: TODO()
+- name: test/IbanValidationTest.kt
+  visible: true

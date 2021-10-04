@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/CensoredList.kt
+  visible: true
+  placeholders:
+  - offset: 0
+    length: 480
+    placeholder_text: // your code goes here
+- name: test/CensoredListTest.kt
+  visible: false

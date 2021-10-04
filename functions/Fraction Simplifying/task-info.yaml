@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/FractionSimplifying.kt
+  visible: true
+  placeholders:
+  - offset: 111
+    length: 203
+    placeholder_text: TODO()
+- name: test/FractionSimplifyingTest.kt
+  visible: true

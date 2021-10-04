@@ -1,0 +1,10 @@
+type: edu
+files:
+- name: src/TotalWealth.kt
+  visible: true
+  placeholders:
+  - offset: 153
+    length: 941
+    placeholder_text: TODO()
+- name: test/TotalWealthTest.kt
+  visible: false
