@@ -1,10 +1,10 @@
 type: edu
 files:
-- name: src/HelloBob.kt
-  visible: true
-  placeholders:
-  - offset: 32
-    length: 87
-    placeholder_text: //your code goes here
-- name: test/HelloBobTest.kt
-  visible: true
+  - name: src/HelloBob.kt
+    visible: true
+    placeholders:
+      - offset: 32
+        length: 87
+        placeholder_text: //your code goes here
+  - name: test/HelloBobTest.kt
+    visible: true

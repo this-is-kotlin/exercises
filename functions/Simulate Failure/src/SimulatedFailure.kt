@@ -1,7 +1,6 @@
 // type your solution here
 import kotlin.random.Random
 
-fun fail(probability: Int) {
-    if (probability > 0 && Random.nextInt(100) <= probability)
-        throw IllegalStateException("simulated side effect exception")
+fun fail(probability: Int) = check(Random.nextInt(1, 100) > probability) {
+    "simulated side effect exception"
 }

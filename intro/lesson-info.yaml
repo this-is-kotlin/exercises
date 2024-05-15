@@ -1,6 +1,7 @@
 content:
-- Hello, Bob
-- IBAN Validation
-- Convert to EUR
-- Dynamic Conversion
-- Dynamic Conversion Optimized
+  - "Hello, Bob"
+  - Greetings
+  - IBAN Validation
+  - Convert to EUR
+  - Dynamic Conversion
+  - Dynamic Conversion Optimized
