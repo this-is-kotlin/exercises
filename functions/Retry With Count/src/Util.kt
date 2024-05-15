@@ -20,7 +20,6 @@ fun Account.deposit(amount: BigDecimal): Account = Account(
     balance = balance + amount
 )
 
-fun fail(probability: Int) {
-    if (probability > 0 && Random.nextInt(100) <= probability)
-        throw IllegalStateException("simulated side effect exception")
+fun fail(probability: Int) = check(Random.nextInt(100) > probability) {
+    "simulated side effect exception"
 }

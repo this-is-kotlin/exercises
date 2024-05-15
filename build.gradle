@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = '1.5.10'
+    ext.kotlin_version = '1.9.24'
 
     repositories {
         mavenCentral()
@@ -27,7 +27,9 @@ subprojects {
     apply plugin: 'java'
     apply plugin: 'kotlin'
 
-    sourceCompatibility = 1.8
+    java {
+        sourceCompatibility = JavaVersion.VERSION_21
+    }
 
     repositories {
         mavenCentral()
@@ -36,18 +38,20 @@ subprojects {
 
     dependencies {
         implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
-        testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.7.2'
+
+        testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.10.2'
+        testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
         testImplementation 'org.jetbrains.kotlin:kotlin-test'
-        testImplementation 'io.mockk:mockk:1.12.0'
+        testImplementation 'io.mockk:mockk:1.13.10'
     }
 
-    compileKotlin.destinationDir = compileJava.destinationDir
+    compileKotlin.destinationDirectory = compileJava.destinationDirectory
 
     compileKotlin {
-        kotlinOptions.jvmTarget = "1.8"
+        kotlinOptions.jvmTarget = "21"
     }
     compileTestKotlin {
-        kotlinOptions.jvmTarget = "1.8"
+        kotlinOptions.jvmTarget = "21"
     }
 
     sourceSets {
@@ -61,7 +65,10 @@ subprojects {
         }
     }
 
-    mainClassName = project.hasProperty("mainClass") ? project.getProperty("mainClass") : ""
+    application {
+        mainClass = project.hasProperty("mainClass") ? project.getProperty("mainClass") : ""
+    }
+
     test {
         useJUnitPlatform()
         outputs.upToDateWhen { false }
@@ -88,7 +95,7 @@ subprojects {
 
 project(':util') {
     dependencies {
-        implementation group: 'junit', name: 'junit', version: '4.12'
+        implementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.10.2'
     }
 }
 
